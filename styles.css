@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: #262626;
+}
+
+h1 {
+  font-size: 3.9rem;
+  color: rgb(194, 20, 20);
+  font-family:'Nosifer Caps Regular';
+  text-shadow: 3px 0 #DBEDF3;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family:'Nosifer Caps Regular';
+  margin: auto;
+}
+
+@font-face {
+font-family: 'Nosifer Caps Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Nosifer Caps Regular'), url('NosiferCaps-Regular.woff') format('woff');
+}
+
+.set {
+  margin: 5% auto;
+  /* display: auto; */
+  /* justify-content: center; */
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.horroricon {
+  outline: none;
+  border: 10px solid #4f4f4f;
+  font-size: 1rem;
+  font-family:'Nosifer Caps Regular';
+  /* font-family: 'Shadows Into Light', cursive; */
+  /* line-height: 2; */
+  /* font-weight: 900; */
+  color: rgb(194, 20, 20);
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  margin: 5px;
+  background-color: white;
+  vertical-align: top;
+
+}
+
+.horroricon:hover {
+  color: #4f4f4f;
+}
+
+h1 {
+  /* position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px; */
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+/* .a {
+  background-image: url("images/tom1.png");
+}
+
+.s {
+  background-image: url("images/tom2.png");
+}
+
+.d {
+  background-image: url("images/tom3.png");
+}
+
+.f {
+  background-image: url("images/tom4.png");
+}
+
+.g {
+  background-image: url("images/snare.png");
+}
+
+.h {
+  background-image: url("images/crash.png");
+}
+
+.j {
+  background-image: url("images/kick.png");
+} */
