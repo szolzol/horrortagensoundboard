@@ -6,22 +6,22 @@ body {
 h1 {
   font-size: 3.9rem;
   color: rgb(194, 20, 20);
-  font-family:'Nosifer Caps Regular';
-  text-shadow: 3px 0 #DBEDF3;
-
+  font-family: "Nosifer Caps Regular";
+  text-shadow: 3px 0 #dbedf3;
 }
 
 footer {
-  color: #DBEDF3;
-  font-family:'Nosifer Caps Regular';
+  color: #dbedf3;
+  font-family: "Nosifer Caps Regular";
   margin: auto;
 }
 
 @font-face {
-font-family: 'Nosifer Caps Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Nosifer Caps Regular'), url('NosiferCaps-Regular.woff') format('woff');
+  font-family: "Nosifer Caps Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Nosifer Caps Regular"),
+    url("/css/NosiferCaps-Regular.woff") format("woff");
 }
 
 .set {
@@ -31,7 +31,7 @@ src: local('Nosifer Caps Regular'), url('NosiferCaps-Regular.woff') format('woff
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
@@ -43,12 +43,12 @@ src: local('Nosifer Caps Regular'), url('NosiferCaps-Regular.woff') format('woff
   outline: none;
   border: 10px solid #4f4f4f;
   font-size: 1rem;
-  font-family:'Nosifer Caps Regular';
+  font-family: "Nosifer Caps Regular";
   /* font-family: 'Shadows Into Light', cursive; */
   /* line-height: 2; */
   /* font-weight: 900; */
   color: rgb(194, 20, 20);
-  text-shadow: 3px 0 #DBEDF3;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   width: 170px;
   height: 170px;
@@ -56,7 +56,6 @@ src: local('Nosifer Caps Regular'), url('NosiferCaps-Regular.woff') format('woff
   margin: 5px;
   background-color: white;
   vertical-align: top;
-
 }
 
 .horroricon:hover {
@@ -86,8 +85,6 @@ h1 {
     background-position: 500%;
   }
 }
-
-
 
 /* .a {
   background-image: url("images/tom1.png");
