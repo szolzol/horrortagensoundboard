@@ -15,8 +15,7 @@
     "express": "^4.17.1"
   },
   "engines": {
-    "node": "12.18.3",
-    "stack": "heroku-22"
+    "node": "12.18.3"
   },
   "devDependencies": {},
   "repository": {

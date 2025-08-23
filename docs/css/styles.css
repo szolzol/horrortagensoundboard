@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #262626;
+}
+
+h1 {
+  font-size: 3.9rem;
+  color: rgb(194, 20, 20);
+  font-family: "Nosifer Caps Regular";
+  text-shadow: 3px 0 #dbedf3;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: "Nosifer Caps Regular";
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Nosifer Caps Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Nosifer Caps Regular"),
+    url("NosiferCaps-Regular.woff") format("woff");
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.horroricon {
+  outline: none;
+  border: 10px solid #4f4f4f;
+  font-size: 1rem;
+  font-family: "Nosifer Caps Regular";
+  color: rgb(194, 20, 20);
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  margin: 5px;
+  background-color: white;
+  vertical-align: top;
+}
