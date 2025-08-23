@@ -22,7 +22,7 @@
         var sound1 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[0].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[0].innerHTML) +
             ".mp3"
         );
         sound1.play();
@@ -31,7 +31,7 @@
         var sound2 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[1].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[1].innerHTML) +
             ".mp3"
         );
         sound2.play();
@@ -40,7 +40,7 @@
         var sound3 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[2].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[2].innerHTML) +
             ".mp3"
         );
         sound3.play();
@@ -49,7 +49,7 @@
         var sound4 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[3].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[3].innerHTML) +
             ".mp3"
         );
         sound4.play();
@@ -58,7 +58,7 @@
         var sound5 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[4].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[4].innerHTML) +
             ".mp3"
         );
         sound5.play();
@@ -67,7 +67,7 @@
         var sound6 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[5].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[5].innerHTML) +
             ".mp3"
         );
         sound6.play();
@@ -76,7 +76,7 @@
         var sound7 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[6].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[6].innerHTML) +
             ".mp3"
         );
         sound7.play();
@@ -85,7 +85,7 @@
         var sound8 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[7].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[7].innerHTML) +
             ".mp3"
         );
         sound8.play();
@@ -94,7 +94,7 @@
         var sound9 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[8].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[8].innerHTML) +
             ".mp3"
         );
         sound9.play();
@@ -103,7 +103,7 @@
         var sound10 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[9].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[9].innerHTML) +
             ".mp3"
         );
         sound10.play();
@@ -112,7 +112,7 @@
         var sound11 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[10].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[10].innerHTML) +
             ".mp3"
         );
         sound11.play();
@@ -121,7 +121,7 @@
         var sound12 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[11].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[11].innerHTML) +
             ".mp3"
         );
         sound12.play();
@@ -130,7 +130,7 @@
         var sound13 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[12].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[12].innerHTML) +
             ".mp3"
         );
         sound13.play();
@@ -139,7 +139,7 @@
         var sound14 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[13].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[13].innerHTML) +
             ".mp3"
         );
         sound14.play();
@@ -148,7 +148,7 @@
         var sound15 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[14].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[14].innerHTML) +
             ".mp3"
         );
         sound15.play();
@@ -157,7 +157,7 @@
         var sound16 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[15].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[15].innerHTML) +
             ".mp3"
         );
         sound16.play();
@@ -166,7 +166,7 @@
         var sound17 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[16].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[16].innerHTML) +
             ".mp3"
         );
         sound17.play();
@@ -175,7 +175,7 @@
         var sound18 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[17].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[17].innerHTML) +
             ".mp3"
         );
         sound18.play();
@@ -184,7 +184,7 @@
         var sound19 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[18].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[18].innerHTML) +
             ".mp3"
         );
         sound19.play();
@@ -193,7 +193,7 @@
         var sound20 = new Audio(
           baseUrl +
             "sounds/" +
-            document.querySelectorAll(".horroricon")[19].innerHTML +
+            encodeURIComponent(document.querySelectorAll(".horroricon")[19].innerHTML) +
             ".mp3"
         );
         sound20.play();
