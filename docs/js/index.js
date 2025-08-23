@@ -1,4 +1,7 @@
+// Dynamikus baseUrl meghatározása, hogy localban és GitHub Pages-en is működjön
 (function () {
+  // baseUrl: pl. "/horrortagensoundboard/" vagy "/"
+  var baseUrl = window.location.pathname.replace(/\/[^\/]*$/, '/')
   var numberOfHorrorButtons = document.querySelectorAll(".horroricon").length;
   for (var i = 0; i < numberOfHorrorButtons; i++) {
     document
@@ -17,7 +20,8 @@
     switch (key) {
       case "q":
         var sound1 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[0].innerHTML +
             ".mp3"
         );
@@ -25,7 +29,8 @@
         break;
       case "w":
         var sound2 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[1].innerHTML +
             ".mp3"
         );
@@ -33,7 +38,8 @@
         break;
       case "e":
         var sound3 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[2].innerHTML +
             ".mp3"
         );
@@ -41,7 +47,8 @@
         break;
       case "r":
         var sound4 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[3].innerHTML +
             ".mp3"
         );
@@ -49,7 +56,8 @@
         break;
       case "t":
         var sound5 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[4].innerHTML +
             ".mp3"
         );
@@ -57,7 +65,8 @@
         break;
       case "z":
         var sound6 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[5].innerHTML +
             ".mp3"
         );
@@ -65,7 +74,8 @@
         break;
       case "u":
         var sound7 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[6].innerHTML +
             ".mp3"
         );
@@ -73,7 +83,8 @@
         break;
       case "i":
         var sound8 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[7].innerHTML +
             ".mp3"
         );
@@ -81,7 +92,8 @@
         break;
       case "o":
         var sound9 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[8].innerHTML +
             ".mp3"
         );
@@ -89,7 +101,8 @@
         break;
       case "p":
         var sound10 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[9].innerHTML +
             ".mp3"
         );
@@ -97,7 +110,8 @@
         break;
       case "a":
         var sound11 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[10].innerHTML +
             ".mp3"
         );
@@ -105,7 +119,8 @@
         break;
       case "s":
         var sound12 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[11].innerHTML +
             ".mp3"
         );
@@ -113,7 +128,8 @@
         break;
       case "d":
         var sound13 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[12].innerHTML +
             ".mp3"
         );
@@ -121,7 +137,8 @@
         break;
       case "f":
         var sound14 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[13].innerHTML +
             ".mp3"
         );
@@ -129,7 +146,8 @@
         break;
       case "g":
         var sound15 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[14].innerHTML +
             ".mp3"
         );
@@ -137,7 +155,8 @@
         break;
       case "h":
         var sound16 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[15].innerHTML +
             ".mp3"
         );
@@ -145,7 +164,8 @@
         break;
       case "j":
         var sound17 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[16].innerHTML +
             ".mp3"
         );
@@ -153,7 +173,8 @@
         break;
       case "k":
         var sound18 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[17].innerHTML +
             ".mp3"
         );
@@ -161,7 +182,8 @@
         break;
       case "l":
         var sound19 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[18].innerHTML +
             ".mp3"
         );
@@ -169,7 +191,8 @@
         break;
       case "é":
         var sound20 = new Audio(
-          "./sounds/" +
+          baseUrl +
+            "sounds/" +
             document.querySelectorAll(".horroricon")[19].innerHTML +
             ".mp3"
         );
