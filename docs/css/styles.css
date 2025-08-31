@@ -6,22 +6,22 @@ body {
 h1 {
   font-size: 3.9rem;
   color: rgb(194, 20, 20);
-  font-family: "NosiferCaps";
+  font-family: "Nosifer Caps Regular";
   text-shadow: 3px 0 #dbedf3;
 }
 
 footer {
   color: #dbedf3;
-  font-family: "NosiferCaps";
+  font-family: "Nosifer Caps Regular";
   margin: auto;
 }
 
 @font-face {
-  font-family: "NosiferCaps";
+  font-family: "Nosifer Caps Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("NosiferCaps-Regular.woff") format("woff");
-  font-display: swap;
+  src: local("Nosifer Caps Regular"),
+    url("/css/NosiferCaps-Regular.woff") format("woff");
 }
 
 .set {
@@ -43,7 +43,7 @@ footer {
   outline: none;
   border: 10px solid #4f4f4f;
   font-size: 1rem;
-  font-family: "NosiferCaps";
+  font-family: "Nosifer Caps Regular";
   /* font-family: 'Shadows Into Light', cursive; */
   /* line-height: 2; */
   /* font-weight: 900; */
