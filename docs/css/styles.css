@@ -21,7 +21,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   src: local("Nosifer Caps Regular"),
-    url("/NosiferCaps-Regular.woff") format("woff");
+    url("NosiferCaps-Regular.woff") format("woff");
 }
 
 .set {
